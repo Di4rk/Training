@@ -12,7 +12,7 @@
 - [x] 443. String Compression
 
 ## 2. Two Pointers (Hai con trỏ)
-- [ ] 283. Move Zeroes
+- [x] 283. Move Zeroes
 - [ ] 392. Is Subsequence
 - [ ] 11. Container With Most Water
 - [ ] 1679. Max Number of K-Sum Pairs

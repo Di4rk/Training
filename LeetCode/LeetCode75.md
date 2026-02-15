@@ -21,7 +21,7 @@
 - [x] 643. Maximum Average Subarray I
 - [x] 1456. Maximum Number of Vowels in a Substring of Given Length
 - [x] 1004. Max Consecutive Ones III
-- [ ] 1493. Longest Subarray of 1's After Deleting One Element
+- [x] 1493. Longest Subarray of 1's After Deleting One Element
 
 ## 4. Prefix Sum (Mảng cộng dồn)
 - [ ] 1732. Find the Highest Altitude

@@ -18,9 +18,9 @@
 - [x] 1679. Max Number of K-Sum Pairs
 
 ## 3. Sliding Window (Cửa sổ trượt)
-- [ ] 643. Maximum Average Subarray I
-- [ ] 1456. Maximum Number of Vowels in a Substring of Given Length
-- [ ] 1004. Max Consecutive Ones III
+- [x] 643. Maximum Average Subarray I
+- [x] 1456. Maximum Number of Vowels in a Substring of Given Length
+- [x] 1004. Max Consecutive Ones III
 - [ ] 1493. Longest Subarray of 1's After Deleting One Element
 
 ## 4. Prefix Sum (Mảng cộng dồn)

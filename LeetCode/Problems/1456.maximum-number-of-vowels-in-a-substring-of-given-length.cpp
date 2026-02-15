@@ -8,8 +8,7 @@
 class Solution {
 public:
     bool isvowel(char s){
-        if(s == 'a' || s == 'e' || s == 'i' || s == 'o' || s == 'u') return true;
-        return false;
+        return (s == 'a' || s == 'e' || s == 'i' || s == 'o' || s == 'u');
     }
     int maxVowels(string s, int k) {
         int count = 0;

@@ -15,7 +15,7 @@
 - [x] 283. Move Zeroes
 - [x] 392. Is Subsequence
 - [x] 11. Container With Most Water
-- [ ] 1679. Max Number of K-Sum Pairs
+- [x] 1679. Max Number of K-Sum Pairs
 
 ## 3. Sliding Window (Cửa sổ trượt)
 - [ ] 643. Maximum Average Subarray I

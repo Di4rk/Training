@@ -24,13 +24,13 @@
 - [x] 1493. Longest Subarray of 1's After Deleting One Element
 
 ## 4. Prefix Sum (Mảng cộng dồn)
-- [ ] 1732. Find the Highest Altitude
-- [ ] 724. Find Pivot Index
+- [x] 1732. Find the Highest Altitude
+- [x] 724. Find Pivot Index
 
 ## 5. Hash Map / Set (Bảng băm / Tập hợp)
-- [ ] 2215. Find the Difference of Two Arrays
-- [ ] 1207. Unique Number of Occurrences
-- [ ] 1657. Determine if Two Strings Are Close
+- [x] 2215. Find the Difference of Two Arrays
+- [x] 1207. Unique Number of Occurrences
+- [x] 1657. Determine if Two Strings Are Close
 - [ ] 2352. Equal Row and Column Pairs
 
 ## 6. Stack (Ngăn xếp)

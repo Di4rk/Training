@@ -31,11 +31,11 @@
 - [x] 2215. Find the Difference of Two Arrays
 - [x] 1207. Unique Number of Occurrences
 - [x] 1657. Determine if Two Strings Are Close
-- [ ] 2352. Equal Row and Column Pairs
+- [x] 2352. Equal Row and Column Pairs
 
 ## 6. Stack (Ngăn xếp)
-- [ ] 2390. Removing Stars From a String
-- [ ] 735. Asteroid Collision
+- [x] 2390. Removing Stars From a String
+- [x] 735. Asteroid Collision
 - [ ] 394. Decode String
 
 ## 7. Queue (Hàng đợi)

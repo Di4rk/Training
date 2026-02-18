@@ -40,7 +40,7 @@
 
 ## 7. Queue (Hàng đợi)
 - [x] 933. Number of Recent Calls
-- [ ] 649. Dota2 Senate
+- [x] 649. Dota2 Senate
 
 ## 8. Linked List (Danh sách liên kết)
 - [ ] 2095. Delete the Middle Node of a Linked List

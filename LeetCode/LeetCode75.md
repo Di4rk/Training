@@ -39,7 +39,7 @@
 - [x] 394. Decode String
 
 ## 7. Queue (Hàng đợi)
-- [ ] 933. Number of Recent Calls
+- [x] 933. Number of Recent Calls
 - [ ] 649. Dota2 Senate
 
 ## 8. Linked List (Danh sách liên kết)

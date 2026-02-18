@@ -36,7 +36,7 @@
 ## 6. Stack (Ngăn xếp)
 - [x] 2390. Removing Stars From a String
 - [x] 735. Asteroid Collision
-- [-] 394. Decode String
+- [x] 394. Decode String
 
 ## 7. Queue (Hàng đợi)
 - [ ] 933. Number of Recent Calls

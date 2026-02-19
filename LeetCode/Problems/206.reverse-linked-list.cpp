@@ -21,14 +21,14 @@ public:
         if(head == nullptr) return nullptr;
         ListNode* now = head;
         ListNode* current = now;
-        ListNode* idk = nullptr;
+        ListNode* prev = nullptr;
         while(now != nullptr){
             current = now;
             now = now->next;
-            current->next = idk;
-            idk = current;
+            current->next = prev;
+            prev = current;
         }
-        return idk;
+        return prev;
     }
 };
 // @lc code=end

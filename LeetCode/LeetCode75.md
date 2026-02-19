@@ -45,7 +45,7 @@
 ## 8. Linked List (Danh sách liên kết)
 - [x] 2095. Delete the Middle Node of a Linked List
 - [x] 328. Odd Even Linked List
-- [ ] 206. Reverse Linked List
+- [x] 206. Reverse Linked List
 - [ ] 2130. Maximum Twin Sum of a Linked List
 
 ## 9. Binary Tree - DFS (Duyệt cây chiều sâu)

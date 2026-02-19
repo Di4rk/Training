@@ -20,13 +20,13 @@ public:
     ListNode* reverseList(ListNode* head) {
         if(head == nullptr) return nullptr;
         ListNode* nxt = head;
-        ListNode* current = nxt;
+        ListNode* curr = nxt;
         ListNode* prev = nullptr;
         while(nxt != nullptr){
-            current = nxt;
+            curr = nxt;
             nxt = nxt->next;
-            current->next = prev;
-            prev = current;
+            curr->next = prev;
+            prev = curr;
         }
         return prev;
     }

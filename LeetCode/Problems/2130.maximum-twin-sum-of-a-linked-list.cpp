@@ -20,17 +20,25 @@ public:
     int pairSum(ListNode* head) {
         ListNode* slow = head;
         ListNode* fast = head;
-        vector<int> twinsum;
         while(fast != nullptr && fast->next != nullptr){
-            twinsum.push_back(slow->val);
             slow=slow->next;
             fast=fast->next->next;
         }
-        int ans = 0;
-        int n = twinsum.size();
-        while(n){
-            ans = max(ans, twinsum[--n] + slow->val);
-            slow=slow->next;
+        ListNode* prev = nullptr;
+        ListNode* curr = slow;
+        while(curr != nullptr){
+            slow = slow->next;
+            curr->next = prev;
+            prev = curr;
+            curr = slow;
+        }
+        int ans =0;
+        ListNode* first = head;
+        ListNode* second = prev;
+        while(second!= nullptr){
+            ans = max(ans, first->val + second->val);
+            first = first->next;
+            second = second->next;
         }
         return ans;
     }

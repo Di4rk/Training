@@ -49,7 +49,7 @@
 - [x] 2130. Maximum Twin Sum of a Linked List
 
 ## 9. Binary Tree - DFS (Duyệt cây chiều sâu)
-- [ ] 104. Maximum Depth of Binary Tree
+- [x] 104. Maximum Depth of Binary Tree
 - [ ] 872. Leaf-Similar Trees
 - [ ] 1448. Count Good Nodes in Binary Tree
 - [ ] 437. Path Sum III

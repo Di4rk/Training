@@ -18,8 +18,26 @@
  */
 class Solution {
 public:
+    unordered_map<long long, int> prefixMap;
+    int target;
+    int dfs(TreeNode* node, long long currentsum){
+        if(!node) return 0;
+        int count = 0;
+        currentsum += node->val;
+        long long oldprefix = currentsum - target;
+        if(prefixMap.count(oldprefix)){
+            count+= prefixMap[oldprefix];
+        }
+        prefixMap[currentsum]++;
+        count += dfs(node->left, currentsum);
+        count += dfs(node->right, currentsum);
+        prefixMap[currentsum]--;
+        return count;
+    }
     int pathSum(TreeNode* root, int targetSum) {
-        
+        target = targetSum;
+        prefixMap[0] = 1;
+        return dfs(root, 0);
     }
 };
 // @lc code=end

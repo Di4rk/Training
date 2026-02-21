@@ -50,7 +50,7 @@
 
 ## 9. Binary Tree - DFS (Duyệt cây chiều sâu)
 - [x] 104. Maximum Depth of Binary Tree
-- [ ] 872. Leaf-Similar Trees
+- [x] 872. Leaf-Similar Trees
 - [ ] 1448. Count Good Nodes in Binary Tree
 - [ ] 437. Path Sum III
 - [ ] 1372. Longest ZigZag Path in a Binary Tree

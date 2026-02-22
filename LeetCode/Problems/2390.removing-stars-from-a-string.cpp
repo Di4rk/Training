@@ -10,7 +10,7 @@ public:
     string removeStars(string s) {
         string kq;
         for(char x : s){
-                        if(x=='*') {
+            if(x=='*') {
                 kq.pop_back();
                 continue;
             }

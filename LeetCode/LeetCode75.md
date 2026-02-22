@@ -53,7 +53,7 @@
 - [x] 872. Leaf-Similar Trees
 - [x] 1448. Count Good Nodes in Binary Tree
 - [x] 437. Path Sum III
-- [ ] 1372. Longest ZigZag Path in a Binary Tree
+- [x] 1372. Longest ZigZag Path in a Binary Tree
 - [ ] 236. Lowest Common Ancestor of a Binary Tree
 
 ## 10. Binary Tree - BFS (Duyệt cây chiều rộng)

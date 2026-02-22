@@ -54,10 +54,10 @@
 - [x] 1448. Count Good Nodes in Binary Tree
 - [x] 437. Path Sum III
 - [x] 1372. Longest ZigZag Path in a Binary Tree
-- [ ] 236. Lowest Common Ancestor of a Binary Tree
+- [x] 236. Lowest Common Ancestor of a Binary Tree
 
 ## 10. Binary Tree - BFS (Duyệt cây chiều rộng)
-- [ ] 199. Binary Tree Right Side View
+- [x] 199. Binary Tree Right Side View
 - [ ] 1161. Maximum Level Sum of a Binary Tree
 
 ## 11. Binary Search Tree (Cây tìm kiếm nhị phân)

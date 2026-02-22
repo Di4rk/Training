@@ -27,10 +27,11 @@ public:
             int size = p.size();
             int currsum = 0;
             for(int i = 0;i<size;i++){
-                currsum += p.front()->val;
-                if(p.front()->left) p.push(p.front()->left);
-                if(p.front()->right) p.push(p.front()->right);
-                p.pop();                
+                TreeNode* curr = p.front();
+                p.pop();
+                currsum += curr->val;
+                if(curr->left) p.push(curr->left);
+                if(curr->right) p.push(curr->right);               
             }
             if(maxval < currsum){
                 maxval = currsum;

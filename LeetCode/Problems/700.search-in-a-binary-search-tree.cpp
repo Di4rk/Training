@@ -19,7 +19,7 @@
 class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
-        int id
+        int idk;
     }
 };
 // @lc code=end

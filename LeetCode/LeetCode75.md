@@ -58,7 +58,7 @@
 
 ## 10. Binary Tree - BFS (Duyệt cây chiều rộng)
 - [x] 199. Binary Tree Right Side View
-- [ ] 1161. Maximum Level Sum of a Binary Tree
+- [x] 1161. Maximum Level Sum of a Binary Tree
 
 ## 11. Binary Search Tree (Cây tìm kiếm nhị phân)
 - [ ] 700. Search in a Binary Search Tree

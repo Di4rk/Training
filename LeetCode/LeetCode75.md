@@ -61,12 +61,12 @@
 - [x] 1161. Maximum Level Sum of a Binary Tree
 
 ## 11. Binary Search Tree (Cây tìm kiếm nhị phân)
-- [ ] 700. Search in a Binary Search Tree
-- [ ] 450. Delete Node in a BST
+- [x] 700. Search in a Binary Search Tree
+- [x] 450. Delete Node in a BST
 
 ## 12. Graphs - DFS (Đồ thị - Duyệt chiều sâu)
-- [ ] 841. Keys and Rooms
-- [ ] 547. Number of Provinces
+- [x] 841. Keys and Rooms
+- [x] 547. Number of Provinces
 - [ ] 1466. Reorder Routes to Make All Paths Lead to the City Zero
 - [ ] 399. Evaluate Division
 

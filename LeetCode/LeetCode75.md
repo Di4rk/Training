@@ -67,7 +67,7 @@
 ## 12. Graphs - DFS (Đồ thị - Duyệt chiều sâu)
 - [x] 841. Keys and Rooms
 - [x] 547. Number of Provinces
-- [ ] 1466. Reorder Routes to Make All Paths Lead to the City Zero
+- [x] 1466. Reorder Routes to Make All Paths Lead to the City Zero
 - [ ] 399. Evaluate Division
 
 ## 13. Graphs - BFS (Đồ thị - Duyệt chiều rộng)

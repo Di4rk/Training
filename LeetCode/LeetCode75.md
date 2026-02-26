@@ -68,7 +68,7 @@
 - [x] 841. Keys and Rooms
 - [x] 547. Number of Provinces
 - [x] 1466. Reorder Routes to Make All Paths Lead to the City Zero
-- [ ] 399. Evaluate Division
+- [x] 399. Evaluate Division
 
 ## 13. Graphs - BFS (Đồ thị - Duyệt chiều rộng)
 - [ ] 1926. Nearest Exit from Entrance in Maze

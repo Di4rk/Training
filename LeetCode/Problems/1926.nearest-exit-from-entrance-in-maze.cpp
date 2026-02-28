@@ -20,7 +20,7 @@ public:
         while(!q.empty()){
             auto [r,c,step] = q.front();
             q.pop();
-            bool border = (r==0 || r==i || c==0 || c==j);
+            bool border = (r==0 || r==i -1 || c==0 || c==j -1);
             bool notentrance = (r!=startrow || c!=startcol);
             if(border && notentrance) return step;
             for(int k = 0; k < 4; k++){

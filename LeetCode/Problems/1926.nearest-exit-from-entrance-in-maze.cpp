@@ -15,7 +15,7 @@ public:
         queue<tuple<int,int,int>> q;
         int startrow = entrance[0];
         int startcol = entrance[1];
-        q.push({startcol,startrow,0});
+        q.push({startrow,startcol,0});
         maze[startrow][startcol] = '+';
         while(!q.empty()){
             auto [r,c,step] = q.front();
@@ -26,7 +26,7 @@ public:
             for(int k = 0; k < 4; k++){
                 int newrol = r +dy[k];
                 int newcol = c + dx[k];
-                if(newrol >= 0 && newrol < i && newcol >= 0 && newcol < j && maze[newrol][newcol]){
+                if(newrol >= 0 && newrol < i && newcol >= 0 && newcol < j && maze[newrol][newcol] == '.'){
                     maze[newrol][newcol] == '+';
                     q.push({newrol,newcol,step + 1});
                 }

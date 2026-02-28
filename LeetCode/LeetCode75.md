@@ -71,7 +71,7 @@
 - [x] 399. Evaluate Division
 
 ## 13. Graphs - BFS (Đồ thị - Duyệt chiều rộng)
-- [ ] 1926. Nearest Exit from Entrance in Maze
+- [x] 1926. Nearest Exit from Entrance in Maze
 - [ ] 994. Rotting Oranges
 
 ## 14. Heap / Priority Queue (Hàng đợi ưu tiên)

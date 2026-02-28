@@ -27,13 +27,12 @@ public:
                 int newrol = r +dy[k];
                 int newcol = c + dx[k];
                 if(newrol >= 0 && newrol < i && newcol >= 0 && newcol < j && maze[newrol][newcol] == '.'){
-                    maze[newrol][newcol] == '+';
+                    maze[newrol][newcol] = '+';
                     q.push({newrol,newcol,step + 1});
                 }
             }
         }
         return -1;
-
     }
 };
 // @lc code=end

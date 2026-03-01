@@ -28,10 +28,10 @@ public:
                 q.pop();
                 for(auto dir : directions){
                     int nextr = r + dir.first;
-                    int nextc = c + dir.sencond;
+                    int nextc = c + dir.second;
                     if(nextr>=0 && nextr < m && nextc >= 0 && nextc < n && gird[nextr][nextc] == 1){
                         q.push({nextr,nextc});
-                        grid[nextr][nextc] == 2;
+                        grid[nextr][nextc] = 2;
                         fresh_count--;
                     }                
                 }

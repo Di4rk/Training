@@ -39,6 +39,7 @@ public:
         }
         minutes++;
     }
+    return fresh_count == 0 ? minutes : -1;
 };
 // @lc code=end
 

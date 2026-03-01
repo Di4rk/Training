@@ -32,9 +32,12 @@ public:
                 int nextc = c + dir.sencond;
                 if(nextr>=0 && nextr < m && nextc >= 0 && nextc < n && gird[nextr][nextc] == 1){
                     q.push_back({nextr,nextc});
-                }
+                    gird[nextr][nextc] == 2;
+                    fresh_count--;
+                }                
             }
         }
+        minutes++;
     }
 };
 // @lc code=end

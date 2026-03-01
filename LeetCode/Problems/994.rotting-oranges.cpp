@@ -18,7 +18,6 @@ public:
                 else if (grid[i][j]==1) fresh_count++;
             }
         }
-    }
     if (!fresh_count) return 0;
     vector<pair<int,int>> directions = {{-1,0},{1,0},{0,-1},{0,1}};
     int minutes = 0;
@@ -40,6 +39,7 @@ public:
         minutes++;
     }
     return fresh_count == 0 ? minutes : -1;
+}
 };
 // @lc code=end
 

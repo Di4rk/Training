@@ -14,7 +14,7 @@ public:
         int fresh_count = 0;
         for(int i = 0;i<m;i++){
             for(int j = 0;j<n;j++){
-                if(gird[i][j] == 2) q.push_back({i,j});
+                if(grid[i][j] == 2) q.push_back({i,j});
                 else if (grid[i][j]==1) fresh_count++;
             }
         }

@@ -72,7 +72,7 @@
 
 ## 13. Graphs - BFS (Đồ thị - Duyệt chiều rộng)
 - [x] 1926. Nearest Exit from Entrance in Maze
-- [ ] 994. Rotting Oranges
+- [x] 994. Rotting Oranges
 
 ## 14. Heap / Priority Queue (Hàng đợi ưu tiên)
 - [ ] 215. Kth Largest Element in an Array

@@ -75,7 +75,7 @@
 - [x] 994. Rotting Oranges
 
 ## 14. Heap / Priority Queue (Hàng đợi ưu tiên)
-- [ ] 215. Kth Largest Element in an Array
+- [x] 215. Kth Largest Element in an Array
 - [ ] 2336. Smallest Number in Infinite Set
 - [ ] 2542. Maximum Subsequence Score
 - [ ] 2462. Total Cost to Hire K Workers

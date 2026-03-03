@@ -8,7 +8,7 @@
 class Solution {
 public:
     long long maxScore(vector<int>& nums1, vector<int>& nums2, int k) {
-        tha cho
+        tha cho toi
     }
 };
 // @lc code=end

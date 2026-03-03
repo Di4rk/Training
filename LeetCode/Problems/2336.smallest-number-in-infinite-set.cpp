@@ -16,7 +16,7 @@ public:
     int popSmallest() {
         if(!added_back.empty()){
             int smallest = *added_back.begin();
-            added_back.crase(added_back.begin());
+            added_back.erase(added_back.begin());
             return smallest;
         }
         int result = current_min;

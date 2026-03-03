@@ -26,7 +26,7 @@ public:
     
     void addBack(int num) {
         if(num < current_min){
-            added_back.push(num);
+            added_back.insert(num);
         }
     }
 };

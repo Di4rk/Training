@@ -6,7 +6,7 @@
 - [x] 1431. Kids With the Greatest Number of Candies
 - [x] 605. Can Place Flowers
 - [x] 345. Reverse Vowels of a String
-- [ ] 151. Reverse Words in a String
+- [x] 151. Reverse Words in a String
 - [x] 238. Product of Array Except Self
 - [ ] 334. Increasing Triplet Subsequence
 - [x] 443. String Compression

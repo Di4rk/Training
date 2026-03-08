@@ -7,7 +7,7 @@
 - [x] 605. Can Place Flowers
 - [x] 345. Reverse Vowels of a String
 - [ ] 151. Reverse Words in a String
-- [x] 238. Product of Array Except Self
+- [ ] 238. Product of Array Except Self
 - [x] 334. Increasing Triplet Subsequence
 - [x] 443. String Compression
 

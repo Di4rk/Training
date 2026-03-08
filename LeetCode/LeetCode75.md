@@ -8,7 +8,7 @@
 - [x] 345. Reverse Vowels of a String
 - [ ] 151. Reverse Words in a String
 - [ ] 238. Product of Array Except Self
-- [x] 334. Increasing Triplet Subsequence
+- [ ] 334. Increasing Triplet Subsequence
 - [x] 443. String Compression
 
 ## 2. Two Pointers (Hai con trỏ)

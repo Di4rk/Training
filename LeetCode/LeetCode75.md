@@ -3,7 +3,7 @@
 ## 1. Array / String (Mảng & Chuỗi)
 - [] 1768. Merge Strings Alternately
 - [] 1071. Greatest Common Divisor of Strings
-- [] 1431. Kids With the Greatest Number of Candies
+- [x] 1431. Kids With the Greatest Number of Candies
 - [x] 605. Can Place Flowers
 - [x] 345. Reverse Vowels of a String
 - [x] 151. Reverse Words in a String

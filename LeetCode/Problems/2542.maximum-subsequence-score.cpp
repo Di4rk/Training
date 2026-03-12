@@ -19,11 +19,11 @@ public:
 
         priority_queue <int, vector<int>, greater<int>> minHeap;
         long long currentSum = 0;
-        long long maxScore;
+        long long maxScore = 0;
 
         for(int i = 0; i < n; i++){
-            int currentNum1 = pairs[i].second();
-            int currentNum2 = pairs[i].first();
+            int currentNum1 = pairs[i].second;
+            int currentNum2 = pairs[i].first;
             minHeap.push(currentNum1);
             currentSum += currentNum1;
 
@@ -36,6 +36,7 @@ public:
                 maxScore = max(maxScore, currentSum * currentNum2);
             }
         }        
+        return maxScore;
     }
 };
 // @lc code=end

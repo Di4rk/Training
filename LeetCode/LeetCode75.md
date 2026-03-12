@@ -80,8 +80,8 @@
 
 ## 14. Heap / Priority Queue (Hàng đợi ưu tiên)
 - [x] 215. Kth Largest Element in an Array
-- [ ] 2336. Smallest Number in Infinite Set
-- [ ] 2542. Maximum Subsequence Score
+- [x] 2336. Smallest Number in Infinite Set
+- [x] 2542. Maximum Subsequence Score
 - [ ] 2462. Total Cost to Hire K Workers
 
 ## 15. Binary Search (Tìm kiếm nhị phân)

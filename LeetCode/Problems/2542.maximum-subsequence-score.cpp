@@ -21,7 +21,21 @@ public:
         long long currentSum = 0;
         long long maxScore;
 
-        
+        for(int i = 0; i < n; i++){
+            int currentNum1 = pairs[i].second();
+            int currentNum2 = pairs[i].first();
+            minHeap.push(currentNum1);
+            currentSum += currentNum1;
+
+            if(minHeap.size() > k){
+                currentSum -= minHeap.top();
+                minHeap.pop();
+            }
+
+            if(minHeap.size() == k){
+                maxScore = max(maxScore, currentSum * currentNum2);
+            }
+        }        
     }
 };
 // @lc code=end

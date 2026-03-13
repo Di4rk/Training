@@ -26,8 +26,8 @@ public:
                 right--;
             }
 
-            long long currentCostLeft = qp_left.top();
-            long long currentCostRight = qp_right.top();
+            long long currentCostLeft = qp_left.size() > 0 ? qp_left.top() : INT_MAX;
+            long long currentCostRight = qp_right.size() > 0 ? qp_right.top() : INT_MAX;
 
             if(currentCostLeft <= currentCostRight){
                 ans += currentCostLeft;

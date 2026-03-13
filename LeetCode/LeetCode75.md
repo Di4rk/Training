@@ -82,7 +82,7 @@
 - [x] 215. Kth Largest Element in an Array
 - [x] 2336. Smallest Number in Infinite Set
 - [x] 2542. Maximum Subsequence Score
-- [ ] 2462. Total Cost to Hire K Workers
+- [x] 2462. Total Cost to Hire K Workers
 
 ## 15. Binary Search (Tìm kiếm nhị phân)
 - [ ] 374. Guess Number Higher or Lower

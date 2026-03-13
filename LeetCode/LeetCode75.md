@@ -85,7 +85,7 @@
 - [x] 2462. Total Cost to Hire K Workers
 
 ## 15. Binary Search (Tìm kiếm nhị phân)
-- [ ] 374. Guess Number Higher or Lower
+- [x] 374. Guess Number Higher or Lower
 - [ ] 2300. Successful Pairs of Spells and Potions
 - [ ] 162. Find Peak Element
 - [ ] 875. Koko Eating Bananas

@@ -13,7 +13,7 @@ int main() {
         cin >> list[i];
     }
     for(int i = 0; i < n; ++i){
-        if(list[i] < list[k] || list[i] <= 0) break;
+        if(list[i] < list[k-1] || list[i] <= 0) break;
         count++;
     }
     cout << count;

@@ -7,17 +7,18 @@ int main() {
 
     string a,b;
     cin >> a >> b;
-    int suma = 0, sumb = 0;
     for(int i = 0; i < a.size(); ++i){
-        if(a[i] >= 'a') suma += a[i] - 32;
-        else suma += a[i];
-        if(b[i] >= 'a') sumb += b[i] - 32;
-        else sumb += b[i];
+        if(a[i] >= 'a') a[i] -= 32;
+        if(b[i] >= 'a') b[i] -= 32;
+        if (a[i] < b[i]) {
+            cout << -1;
+            return 0;
+        } 
+        else if(a[i] > b[i]) {
+            cout << 1;
+            return 0;
+        }
     }
-
-    if(suma > sumb) cout << 1;
-    else if (suma == sumb) cout << 0;
-    else cout << -1;
-
+    cout << 0;
     return 0;
 }

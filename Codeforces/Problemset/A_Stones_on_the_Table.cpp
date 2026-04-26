@@ -7,7 +7,7 @@ int main() {
 
     int n;
     cin >> n;
-    char *s = new char[n];
+    char s[55];
     int cnt = 0;
     for(int i = 0; i < n; ++i) {
         cin >> s[i];
@@ -15,6 +15,4 @@ int main() {
     }
     cout << cnt;
     return 0;
-
-
 }

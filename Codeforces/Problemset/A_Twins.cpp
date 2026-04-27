@@ -8,7 +8,7 @@ int main() {
     int n;
     cin >> n;
     vector<int> list;
-    float sum = 0;
+    int sum = 0;
     while(n--){
         int a;
         cin >> a;
@@ -17,12 +17,12 @@ int main() {
     }
 
     sort(list.begin(), list.end(), greater<int>());
-    sum /= 2.0;
+    sum /= 2;
     int count = 0;
     for(int i = 0; i < list.size(); ++i){
         count += list[i];
         if(count > sum) {
-            cout << i;
+            cout << i + 1;
             return 0;
         }
     }

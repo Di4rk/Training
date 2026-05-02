@@ -7,12 +7,15 @@ int main() {
 
     int n, k;
     cin >> n >> k;
-    while(k--){
-        if(n%10 != 0){
-            --n;
-        } 
+    while(k>0){
+        int x = n % 10;
+        if(k - x <= 0) {
+            n -= k;
+            break;
+        }
         else {
-            n/=10;
+            k -= x + 1;
+            n /= 10;
         }
     }
     cout << n;
